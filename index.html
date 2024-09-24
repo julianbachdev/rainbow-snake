@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Snake Game</title>
+  </head>
+  <body id="main">
+    <header class="nav">
+      <h1 id="name">RAINBOW SNAKE GAME</h1>
+      <div class="btns">
+        <div class="speed">
+          <button id="slow" value="140">SLOW</button>
+          <button id="medium" value="100">MEDIUM</button>
+          <button id="fast" value="80">FAST</button>
+        </div>
+        <button id="start">START</button>
+        <button id="reset">RESET</button>
+        <button id="pause">PAUSE</button>
+      </div>
+    </header>
+    <div class="display">
+      <div class="snake" id="snake1"></div>
+      <div id="food"></div>
+      <div id="countdown"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
